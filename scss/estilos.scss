@@ -2,6 +2,12 @@
     margin: 15px;
 }
 
+ /*Creación de variables*/
+ $color-back:blue;
+ $relleno:25px;
+ $bordes: 1px solid black;
+ 
+
 @font-face {
     font-family: DM-sans-Regular;
     src: url(./fuentes/DMSans-Regular.ttf)
@@ -25,13 +31,14 @@ a:hover{
 }
 
 .links{
+    display: flex;
     font-family: DM-sans-Regular;
     color: rgb(112, 112, 112);
-    padding-left: 100px;
     font-size: 20px;
     font-weight: bold;
     text-decoration-line: none;
 }
+
 
 #grid{
     display: grid;
@@ -336,12 +343,12 @@ h4{
     grid-area: img1;
     display: flex;
     justify-content: baseline;
+    
 }
 .img2{
     grid-area: img2;
     display: flex;
-    justify-content: center;
-    padding-left: 50px;
+    justify-content: right;
 }
 .img3{
     grid-area: img3;
@@ -409,13 +416,41 @@ h4{
     padding-left: 50px;
 }
 
-@media screen and (max-width:1100px){
+
+@media screen and (max-width:992px){
+    .navbar-brand{
+        display: none;
+    }
+    .text-center{
+        height: 80px;
+        display: flex;
+        justify-content: end;
+    }
+    #grid{
+        display:inline
+    }
+    img{
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        padding-top: 50px;
+    } 
+    
+}
+@media screen and (min-width:992px){
+    .text-center{
+        height: 100px;
+    }
+}
+/*@media screen and (max-width:1100px){
     h1{
         font-size: 25px;
     }
     h2{
         font-size: 20px;
     }
+    
     #grid{
         display: grid;
 
@@ -434,4 +469,4 @@ h4{
         grid-template-rows: 100px;
     }
 
-}
+}*/

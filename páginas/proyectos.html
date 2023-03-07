@@ -5,61 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../recursos/icono.png">
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
     <title>BotaniCO_Proyectos</title>
 </head>
-<body>
-    <nav>
-    <img src="../recursos/logo.png"logo-botanico" width="200px">
-    <a class="links" href="../index.html">Nosotros</a>
-    <a class="links" href="#">Proyectos</a>
-    <a class="links" href="./cuidados.html">Cuidados</a>
-    <a class="links" href="./shop.html">Shop</a>
-    <a class="links" href="./contacto.html">Contacto</a>
-    </nav>
 
-    <h1>NUESTROS PROYECTOS REALIZADOS</h1>
-    <h3>JARDINES</h3>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <img class="navbar-brand img-logo" src="../recursos/logo.png" alt="logo" height="100px">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="links">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Nosotros</a>
+                </li>
+                <li class="links">
+                    <a class="nav-link" href="#">Proyectos</a>
+                </li>
+                <li class="links">
+                    <a class="nav-link" href="./cuidados.html">Cuidados</a>
+                </li>
+                <li class="links">
+                    <a class="nav-link" href="./shop.html">Shop</a>
+                </li>
+                <li class="links">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                    </ul>
+            </div>
+            </div>
+        </div>
+        </nav>
+
+<body>
+
+    <h1 class="izq">NUESTROS PROYECTOS REALIZADOS</h1>
+    <h3 class="izq">JARDINES</h3>
 
     <div id="grid1">
-    <h4 class="tit1">ESTILO TROPICAL</h4>
-    <img class="img1" src="../recursos/jardin-tropical-1.jpg" alt="jardin1" height="600px">
-    <img class="img2" src="../recursos/jardin-tropical-2.jpg" alt="jardin2" height="600px">
-    <img class="img3" src="../recursos/jardin-tropical-3.jpg" alt="jardin3" height="600px">
+        <h4 class="tit1 izq flex-grow-1">ESTILO TROPICAL</h4>
+        <img class="img1 flex-grow-1" src="../recursos/jardin-tropical-1.jpg" alt="jardin1" height="600px">
+        <img class="img2 flex-grow-1" src="../recursos/jardin-tropical-2.jpg" alt="jardin2" height="600px">
+        <img class="img3 flex-grow-1" src="../recursos/jardin-tropical-3.jpg" alt="jardin3" height="600px">
     </div>
 
     <div id="grid2">
-    <h4 class="tit2">ESTILO BOSQUE</h4>
-    <img class="img4" src="../recursos/jardin-bosque-1.jpg" alt="jarin4" height="600px">
-    <img class="img5" src="../recursos/jardin-bosque-2.jpg" alt="jardin5" height="600px">
+        <h4 class="tit2 izq flex-grow-1">ESTILO BOSQUE</h4>
+        <img class="img4 flex-grow-1" src="../recursos/jardin-bosque-1.jpg" alt="jarin4" height="600px">
+        <img class="img5 flex-grow-1" src="../recursos/jardin-bosque-2.jpg" alt="jardin5" height="600px">
     </div>
-  
+
     <div id="grid3">
-    <h4 class="tit3">ESTILO FLORAL</h4>
-    <img class="img6" src="../recursos/jardin-floral-1.jpg" alt="jardin6" height="600px">
-    <img class="img7" src="../recursos/jardin-floral-2.jpg" alt="jardin7" height="600px">
-    <img class="img8" src="../recursos/jardin-floral-3.jpg" alt="jardin8" height="600px"> 
+        <h4 class="tit3 izq flex-grow-1">ESTILO FLORAL</h4>
+        <img class="img6 flex-grow-1" src="../recursos/jardin-floral-1.jpg" alt="jardin6" height="600px">
+        <img class="img7 flex-grow-1" src="../recursos/jardin-floral-2.jpg" alt="jardin7" height="600px">
+        <img class="img8 flex-grow-1" src="../recursos/jardin-floral-3.jpg" alt="jardin8" height="600px"> 
     </div>
     
 
     <div id="grid4">
-    <h4 class="tit">ESTILO SECANO</h4>
-    <img class="img9" src="../recursos/jardin-secano-1.jpg" alt="jardin9" height="600px">
-    <img class="img10" src="../recursos/jardin-secano-2.jpg" alt="jardin10" height="600px">
+        <h4 class="tit4 izq flex-grow-1">ESTILO SECANO</h4>
+        <img class="img9 flex-grow-1" src="../recursos/jardin-secano-1.jpg" alt="jardin9" height="600px">
+        <img class="img10 flex-grow-1" src="../recursos/jardin-secano-2.jpg" alt="jardin10" height="600px">
     </div>
 
-    <h4>JARDINES VERTICALES</h4>
-    <div class="img-proyecto-2">
-        <img src="../recursos/jardin-vertical-1.jpg" alt="jardin11" height="600px">
-        <img src="../recursos/jardin-vetical-2.jpg" alt="jardin12" height="600px">
+    <div id="grid5">
+        <h4 class="tit5 izq flex-grow-1">JARDINES VERTICALES</h4>
+        <img class="img11 flex-grow-1" src="../recursos/jardin-vertical-1.jpg" alt="jardin11" height="600px">
+        <img class="img12 flex-grow-1" src="../recursos/jardin-vetical-2.jpg" alt="jardin12" height="600px">
     </div>
 
-    <h4>JARDINES INTERIORES</h4>
-    <div>
-        <img src="../recursos/jardin-interior-1.jpg" alt="jardin13" height="600px">
-        <img src="../recursos/jardin-interior-2.jpg" alt="jardin14" height="600px">
-        <img src="../recursos/jardin-interior-3.jpg" alt="jardin15" height="600px">
+    <div class="grid6">
+        <h4 class="tit6 izq flex-grow-1">JARDINES INTERIORES</h4>
+        <img class="img13 flex-grow-1" src="../recursos/jardin-interior-1.jpg" alt="jardin13" height="600px">
+        <img class="img14 flex-grow-1" src="../recursos/jardin-interior-2.jpg" alt="jardin14" height="600px">
+        <img class="img15 flex-grow-1" src="../recursos/jardin-interior-3.jpg" alt="jardin15" height="600px">
     </div>
 
+    <script src="../libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

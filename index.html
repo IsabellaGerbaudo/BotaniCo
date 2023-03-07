@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../botani_co/recursos/icono.png">
+    <link rel="shortcut icon" href="./recursos/icono.png">
     <link rel="stylesheet" href="./css/estilos.css">
     
     <!--Bootstrap-->
@@ -17,38 +17,41 @@
     <!--Enlaces-->
     <header>
 
-      
-
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-              <button  class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon p-2"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">
-                    <img src="./recursos/logo.png" alt="img-logo" height="100px" class="img-logo">
-                </a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 links justify-content-between align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./páginas/proyectos.html">Proyectos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./páginas/cuidados.html">Cuidados</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./páginas/shop.html">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./páginas/contacto.html">Contacto</a>
-                  </li>
-                
-                </ul>
-              </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img class="navbar-brand img-logo" src="./recursos/logo.png" alt="logo" height="100px">
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-          </nav>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="links">
+                  <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                </li>
+                <li class="links">
+                  <a class="nav-link" href="./páginas/proyectos.html">Proyectos</a>
+                </li>
+                <li class="links">
+                  <a class="nav-link" href="./páginas/cuidados.html">Cuidados</a>
+                </li>
+                <li class="links">
+                  <a class="nav-link" href="./páginas/shop.html">Shop</a>
+                </li>
+                <li class="links">
+                  <a class="nav-link" href="./páginas/contacto.html">Contacto</a>
+                </li>
+                  </ul>
+              
+            </div>
+          </div>
+          
+        </div>
+      </nav>
+
     </header>
     
     
@@ -66,34 +69,7 @@
             <h2 class="texto-3 flex-grow-1 ms-3 me-5">Además de bocetos hechos a mano utilizamos aplicaciones de generación 3D en la etapa de diseño para poder plasmar de forma realista al cliente de cómo quedará el espacio. Esto nos permite una comunicación más fluida y una comprensión integral del proyecto.</h2>
         </div>
     </div>
-        <!--Cambios en el  body
-
-    <section class="container">
-        <div class="img"> </div>
-            <div class="texto">
-        <h1>¿QUIENES SOMOS?</h1>
-        <h2>Somos una empresa que busca diseñar y desarrollar espacios verdes únicos y a medida, según gustos y necesidades requeridas. Creamos con responsabilidad medioambiental y utilizando recursos naturales aptos al espacio a trabajar.</h2>
-            </div>
-        
-    </section>
-
-        <section class="container-1">
-            <div class="texto-medio">
-            <h1>EN QUÉ NOS ESPECIALIZAMOS</h1>
-            <h2>Estamos conformados por un grupo de arquitectos y paisajistas con ambición y potencial, listo para afrontar cualquier espacio que quiera echar raíz. Cada lugar tiene su personalidad y nosotros con nuestros 30 años de experiencia estamos dispuesto a encontrarlo y materializarlo.</h2>
-            </div>
-            <div class="img-2"></div>
-        </section>
-
-        <section class="container">
-        <div class="img-3"> </div>
-            <div class="texto">
-            <h1>BÚSQUEDA DEL DETALLE</h1>
-            <h2>Además de bocetos hechos a mano utilizamos aplicaciones de generación 3D en la etapa de diseño para poder plasmar de forma realista al cliente de cómo quedará el espacio. Esto nos permite una comunicación más fluida y una comprensión integral del proyecto.</h2>
-            </div>
-        </section>
-        </main>
-        -->
+      
 
         <footer>
 
@@ -104,48 +80,17 @@
                 <input class="telefono" type="tel" name="telefono" placeholder="Teléfono">
                 <input class="mail" type="email" name="email" placeholder="Email">
                 </form>
-                <textarea class="mensaje" name="mensaje" cols="30" rows="5" placeholder="Contanos"></textarea>
-                <button type="submit" class="btn btn-dark shadow boton">Enviar</button>
-                <img class="logo-1 d-flex justify-content-center" src="./recursos/logo.png" alt="logo" height="100px">
-                <p class="mail-2 d-flex justify-content-center">botanico@gmail.com</p>
-                <p class="telefono-2 d-flex justify-content-center">034165642759</p>
-                <p class="dire d-flex justify-content-center">Rosario - Santa Fe - Argentina</p>
-                <img class="insta d-flex justify-content-center" src="./recursos/instagram.png" alt="instagram" height="50px">
-                <img class="face d-flex justify-content-center" src="./recursos/facebook.png" alt="faceboock" height="50px">
+                <textarea class="mensaje flex-grow-1" name="mensaje" cols="30" rows="5" placeholder="Contanos"></textarea>
+                <button type="submit" class="btn btn-dark shadow boton justify-content-center flex-grow-1">Enviar</button>
+                <img class="logo-1 d-flex flex-grow-1" src="./recursos/logo.png" alt="logo" height="100px">
+                <p class="mail-2 d-flex justify-content-center flex-grow-1">botanico@gmail.com</p>
+                <p class="telefono-2 d-flex justify-content-center flex-grow-1">034165642759</p>
+                <p class="dire d-flex justify-content-center flex-grow-1">Rosario - Santa Fe - Argentina</p>
+                <img class="insta d-flex flex-grow-1" src="./recursos/instagram.png" alt="instagram" height="50px">
+                <img class="face d-flex flex-grow-1" src="./recursos/facebook.png" alt="faceboock" height="50px">
             </div>
 
-        <!--Cambios en el  footer
-            <h1>CONTACTANOS</h1>
-
-        <section class="container-info">
-            <div class="form">
-        <form action="procesar.php" method="post">
-            <div>
-            <input type="text" name="nombre" placeholder="Nombre y Apellido">
-        </div>
-        <div>
-            <input type="tel" name="telefono" placeholder="Teléfono">
-        </div>
-        <div>
-            <input type="email" name="email" placeholder="Email">
-        </div>
-        </form>
-        <div class="form">
-        <textarea name="mensaje" cols="30" rows="10" placeholder="Contanos"></textarea>
-        </div class="info-logo">
-        <button type="submit" class="form-1">Enviar</button>
-        </div>
-
-        <div class="info">
-        <img src="./recursos/logo.png" alt="logo" height="100px" class="info-logo">
-        <p>botanico@gmail.com</p>
-        <p>034165642759</p>
-        <p>Rosario - Santa Fe - Argentina</p>
-        <img src="./recursos/instagram.png" alt="instagram" height="50px" class="info-logo">
-        <img src="./recursos/facebook.png" alt="facebook" height="50px" class="info-logo">
-        </div>
-    </section>
-    -->
+        
 </footer>
 
 <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
