@@ -4,12 +4,25 @@
 }
 
 /*Importación*/
-/*Graientes*/
-/*Ejemplo 1*/
 /*Creación de variables*/
 /*Variables if*/
+.caja {
+  background-color: gray;
+}
+
 /*Bucle Each*/
 /*Mapas*/
+.card, .avatar {
+  background: #fff;
+  border-radius: 4px;
+  padding: 25px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
 @font-face {
   font-family: DM-sans-Regular;
   src: url(../fuentes/DMSans-Regular.ttf);
@@ -24,10 +37,11 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
-nav a:hover {
+
+a:hover {
   color: black;
   font-weight: bolder;
-  font-size: 21px;
+  font-size: 22px;
 }
 
 .links {
@@ -112,7 +126,7 @@ h1 {
 #grid-2 {
   display: grid;
   grid-template-areas: "contacto   contacto" "input      logo" "mens       datos" "mens       datos" "mens       datos" "bot        redes";
-  grid-template-columns: 600px 600px;
+  grid-template-columns: repeat(50%);
   grid-template-rows: repeat(1fr);
 }
 
@@ -125,7 +139,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
 }
 
 .nombre {
@@ -247,6 +260,14 @@ h4 {
   padding-left: 900px;
 }
 
+.img-proyecto {
+  padding-left: 50px;
+}
+
+.img-proyecto-2 {
+  padding-left: 220px;
+}
+
 .deco {
   padding-left: 200px;
 }
@@ -280,13 +301,6 @@ h4 {
   grid-area: img3;
   display: flex;
   justify-self: center;
-}
-
-.im {
-  height: 600px;
-}
-.im:hover {
-  height: 650px;
 }
 
 #grid2 {
@@ -399,7 +413,7 @@ h4 {
 #grid6 {
   display: grid;
   grid-template-areas: "tit    tit     tit" "img13   img14    img15";
-  grid-template-columns: repeat(30%);
+  grid-template-columns: repeat(20%);
   grid-template-rows: 100px 600px;
 }
 
@@ -470,99 +484,6 @@ h4 {
   justify-self: center;
 }
 
-#gridshop1 {
-  display: grid;
-  grid-template-areas: "tit  tit tit" "a1   a2  a3";
-  grid-template-columns: repeat(33%);
-  grid-template-rows: 75px 500px;
-}
-
-.titshop {
-  grid-area: tit;
-  display: flex;
-  justify-content: center;
-}
-
-.a1 {
-  grid-area: a1;
-  display: flex;
-  justify-self: center;
-}
-
-.a2 {
-  grid-area: a2;
-  display: flex;
-  justify-self: center;
-}
-
-.a3 {
-  grid-area: a3;
-  display: flex;
-  justify-self: center;
-}
-
-#gridshop2 {
-  display: grid;
-  grid-template-areas: "tit  tit tit" "a4   a5  a6";
-  grid-template-columns: repeat(30%);
-  grid-template-rows: 75px 500px;
-}
-
-.titshop2 {
-  grid-area: tit;
-  display: flex;
-  justify-content: center;
-}
-
-.a4 {
-  grid-area: a4;
-  display: flex;
-  justify-self: center;
-}
-
-.a5 {
-  grid-area: a5;
-  display: flex;
-  justify-self: center;
-}
-
-.a6 {
-  grid-area: a6;
-  display: flex;
-  justify-self: center;
-}
-
-#gridshop3 {
-  display: grid;
-  grid-template-areas: "tit  tit tit" "a7   a8  a9";
-  grid-template-columns: repeat(33%);
-  grid-template-rows: 75px 500px;
-}
-
-.titshop3 {
-  grid-area: tit;
-  display: flex;
-  justify-content: center;
-}
-
-.a7 {
-  grid-area: a7;
-  display: flex;
-  justify-self: center;
-}
-
-.a8 {
-  grid-area: a8;
-  display: flex;
-  justify-self: center;
-}
-
-.a9 {
-  grid-area: a9;
-  display: flex;
-  justify-self: center;
-}
-
 @media screen and (max-width: 992px) {
   .navbar {
     display: none;
@@ -579,15 +500,6 @@ h4 {
     display: inline;
   }
   #grid-cui {
-    display: inline;
-  }
-  #gridshop1 {
-    display: inline;
-  }
-  #gridshop2 {
-    display: inline;
-  }
-  #gridshop3 {
     display: inline;
   }
   .texto2 {
@@ -626,28 +538,19 @@ h4 {
   #grid1 {
     display: grid;
     grid-template-areas: "tit    tit" "img1   img2" "img3   img3";
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
     grid-template-rows: 100px 600px 600px;
   }
   #grid3 {
     display: grid;
     grid-template-areas: "tit    tit" "img6   img7" "img8   img8";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100px 600px 600px;
-  }
-  #grid6 {
-    display: grid;
-    grid-template-areas: "tit    tit" "img13   img14" "img15   img15";
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
     grid-template-rows: 100px 600px 600px;
   }
   .img3 {
     padding-top: 50px;
   }
   .img8 {
-    padding-top: 50px;
-  }
-  .img15 {
     padding-top: 50px;
   }
   .izq {
@@ -688,4 +591,4 @@ h4 {
 
 }*/
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=s.map */
