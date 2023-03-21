@@ -655,6 +655,20 @@ h4 {
     justify-content: start;
   }
 }
+img {
+  animation-duration: 3s;
+  animation-name: slide;
+  animation-iteration-count: 1;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media screen and (min-width: 992px) {
   .text-center {
     height: 100px;
