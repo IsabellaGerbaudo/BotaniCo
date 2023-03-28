@@ -624,19 +624,87 @@ h4 {
     justify-self: center;
   }
   #grid1 {
-    display: inline;
+    display: grid;
+    grid-template-areas: "tit" "img1" "img2" "img3";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px repeat(600px);
+  }
+  .tit1 {
+    grid-area: tit;
+    justify-content: center;
+    align-items: center;
+  }
+  .img1 {
+    grid-area: img1;
+    display: flex;
+    justify-self: center;
+  }
+  .img2 {
+    grid-area: img2;
+    display: flex;
+    justify-self: center;
+  }
+  .img3 {
+    grid-area: img3;
+    display: flex;
+    justify-self: center;
   }
   #grid2 {
-    display: inline;
+    display: grid;
+    grid-template-areas: "tit" "img4" "img5";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px repeat(600px);
+  }
+  .tit2 {
+    grid-area: tit;
+    justify-content: center;
+    align-items: center;
+  }
+  .img4 {
+    grid-area: img1;
+    display: flex;
+    justify-self: center;
+  }
+  .img5 {
+    grid-area: img2;
+    display: flex;
+    justify-self: center;
   }
   #grid3 {
-    display: inline;
+    display: grid;
+    grid-template-areas: "tit" "img6" "img7" "img8";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px repeat(600px);
+  }
+  .tit3 {
+    grid-area: tit;
+    justify-content: center;
+    align-items: center;
+  }
+  .img6 {
+    grid-area: img1;
+    display: flex;
+    justify-self: center;
+  }
+  .img7 {
+    grid-area: img2;
+    display: flex;
+    justify-self: center;
+  }
+  .img8 {
+    grid-area: img3;
+    display: flex;
+    justify-self: center;
   }
   #grid4 {
-    display: inline;
+    display: grid;
+    grid-template-areas: "tit" "img4" "img5";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px repeat(600px);
   }
   #grid5 {
     display: inline;
+    justify-self: center;
   }
   #grid6 {
     display: inline;
