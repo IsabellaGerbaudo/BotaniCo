@@ -577,6 +577,8 @@ h4 {
   }
   #grid-2 {
     display: inline;
+    justify-self: center;
+    width: max-content;
   }
   #grid-cui {
     display: inline;
@@ -598,6 +600,13 @@ h4 {
   }
   h1 {
     padding-top: 30px;
+    justify-content: center;
+  }
+  h4 {
+    justify-content: center;
+  }
+  h3 {
+    justify-content: center;
   }
   .nombre {
     padding-inline-end: 80%;
