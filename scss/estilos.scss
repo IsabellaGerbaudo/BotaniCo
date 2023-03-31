@@ -724,6 +724,7 @@ $estilos:(
     }
   
     .izq{
+      display: inline;
       padding-left: 0px;
       justify-content: start;
     }
@@ -762,6 +763,14 @@ $estilos:(
     }
     .img-logo{
       display: none;
+    }
+    .izq{
+      display: inline;
+      padding-left: 0px;
+      justify-content: start;
+    }
+    img{
+      width: max-content;
     }
     title{
       display: none;
