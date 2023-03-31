@@ -671,7 +671,8 @@ h4 {
     justify-content: start;
   }
   img {
-    width: max-content;
+    width: 990px;
+    height: auto;
   }
 }
 img {
@@ -707,7 +708,8 @@ img {
     justify-content: start;
   }
   img {
-    width: max-content;
+    width: 400px;
+    height: auto;
   }
   title {
     display: none;
