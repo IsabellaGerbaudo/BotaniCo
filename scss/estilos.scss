@@ -724,11 +724,12 @@ $estilos:(
     }
   
     .izq{
-      display: block;
       padding-left: 0px;
       justify-content: start;
     }
-    
+    img{
+      width: max-content;
+    }
   }
   
   img{
