@@ -670,7 +670,7 @@ h4 {
     padding-left: 0px;
     justify-content: start;
   }
-  img {
+  .im {
     width: 950px;
   }
 }
@@ -706,7 +706,7 @@ img {
     padding-left: 0px;
     justify-content: start;
   }
-  img {
+  .im {
     width: 380px;
   }
   title {
