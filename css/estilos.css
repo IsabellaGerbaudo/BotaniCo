@@ -655,7 +655,7 @@ h4 {
     display: grid;
     grid-template-areas: "tit1 tit1" "img1 img2" "img3 img3";
     grid-template-columns: repeat(50%);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(300px);
   }
   .tit1 {
     grid-area: tit1;
@@ -681,7 +681,7 @@ h4 {
     display: grid;
     grid-template-areas: "tit3 tit3" "img6 img7" "img8 img8";
     grid-template-columns: repeat(50%);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(300px);
   }
   .tit3 {
     grid-area: tit3;
@@ -707,7 +707,7 @@ h4 {
     display: grid;
     grid-template-areas: "tit6 tit6" "img13 img14" "img15 img15";
     grid-template-columns: repeat(50%);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(300px);
   }
   .tit6 {
     grid-area: tit6;
@@ -789,7 +789,7 @@ img {
     display: grid;
     grid-template-areas: "tit1" "img1" "img2" "img3";
     grid-template-columns: repeat(100%);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(350px);
   }
   .tit1 {
     grid-area: tit1;

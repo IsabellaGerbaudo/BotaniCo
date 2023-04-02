@@ -739,7 +739,7 @@ $estilos:(
       "img3 img3"
       ;
       grid-template-columns: repeat(50%);
-      grid-template-rows: auto;
+      grid-template-rows: repeat(300px);
       }
       .tit1{
         grid-area: tit1;
@@ -770,7 +770,7 @@ $estilos:(
       "img8 img8"
       ;
       grid-template-columns: repeat(50%);
-      grid-template-rows: auto;
+      grid-template-rows: repeat(300px);
       }
       .tit3{
         grid-area: tit3;
@@ -801,7 +801,7 @@ $estilos:(
       "img15 img15"
       ;
       grid-template-columns: repeat(50%);
-      grid-template-rows: auto;
+      grid-template-rows: repeat(300px);
       }
       .tit6{
         grid-area: tit6;
@@ -899,7 +899,7 @@ $estilos:(
     "img3"
     ;
     grid-template-columns: repeat(100%);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(350px);
     }
     .tit1{
       grid-area: tit1;
