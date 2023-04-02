@@ -315,7 +315,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit2   tit2" "img4   img5";
   grid-template-columns: repeat(45%);
-  grid-template-rows: 20px 550px;
+  grid-template-rows: auto;
 }
 
 .tit2 {
@@ -341,7 +341,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit3   tit3    tit3" "img6   img7    img8";
   grid-template-columns: repeat(30%);
-  grid-template-rows: 20px 550px;
+  grid-template-rows: auto;
 }
 
 .tit3 {
@@ -372,7 +372,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit4 tit4" "img9 img10";
   grid-template-columns: repeat(45%);
-  grid-template-rows: 20px 550px;
+  grid-template-rows: auto;
 }
 
 .tit4 {
@@ -397,7 +397,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit5   tit5" "img11  img12";
   grid-template-columns: repeat(45%);
-  grid-template-rows: 20px 550px;
+  grid-template-rows: auto;
 }
 
 .tit5 {
@@ -422,7 +422,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit6    tit6     tit6" "img13   img14    img15";
   grid-template-columns: repeat(30%);
-  grid-template-rows: 20px 550px;
+  grid-template-rows: auto;
 }
 
 .tit6 {
@@ -665,7 +665,7 @@ h4 {
   #grid1 {
     display: grid;
     grid-template-areas: "tit1 tit1" "img1 img2" "img3 img3";
-    grid-template-columns: repeat(400px);
+    grid-template-columns: repeat(45%);
     grid-template-rows: auto;
   }
   .tit1 {
@@ -691,8 +691,8 @@ h4 {
   #grid3 {
     display: grid;
     grid-template-areas: "tit3 tit3" "img6 img7" "img8 img8";
-    grid-template-columns: repeat(400px);
-    grid-template-rows: 20px 500px 500px;
+    grid-template-columns: repeat(45%);
+    grid-template-rows: auto;
   }
   .tit3 {
     grid-area: tit3;
@@ -717,7 +717,7 @@ h4 {
   #grid6 {
     display: grid;
     grid-template-areas: "tit6 tit6" "img13 img14" "img15 img15";
-    grid-template-columns: repeat(400px);
+    grid-template-columns: repeat(45%);
     grid-template-rows: auto;
   }
   .tit6 {
@@ -799,7 +799,7 @@ img {
   #grid1 {
     display: grid;
     grid-template-areas: "tit1" "img1" "img2" "img3";
-    grid-template-columns: repeat(100%);
+    grid-template-columns: repeat(90%);
     grid-template-rows: auto;
   }
   .tit1 {
@@ -825,7 +825,7 @@ img {
   #grid2 {
     display: grid;
     grid-template-areas: "tit2" "img4" "img5";
-    grid-template-columns: repeat(100%);
+    grid-template-columns: repeat(90%);
     grid-template-rows: auto;
   }
   .tit2 {
@@ -846,7 +846,7 @@ img {
   #grid3 {
     display: grid;
     grid-template-areas: "tit3" "img6" "img7" "img8";
-    grid-template-columns: repeat(100%);
+    grid-template-columns: repeat(90%);
     grid-template-rows: auto;
   }
   .tit3 {
@@ -872,7 +872,7 @@ img {
   #grid4 {
     display: grid;
     grid-template-areas: "tit4" "img9" "img10";
-    grid-template-columns: repeat(100%);
+    grid-template-columns: repeat(90%);
     grid-template-rows: auto;
   }
   .tit4 {
@@ -893,7 +893,7 @@ img {
   #grid5 {
     display: grid;
     grid-template-areas: "tit5" "img11" "img12";
-    grid-template-columns: repeat(100%);
+    grid-template-columns: repeat(90%);
     grid-template-rows: auto;
   }
   .tit5 {
@@ -914,7 +914,7 @@ img {
   #grid6 {
     display: grid;
     grid-template-areas: "tit6" "img13" "img14" "img15";
-    grid-template-columns: repeat(100%);
+    grid-template-columns: repeat(90%);
     grid-template-rows: auto;
   }
   .tit6 {
