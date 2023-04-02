@@ -251,11 +251,30 @@ h4 {
   padding-left: 200px;
 }
 
+#grid01 {
+  display: grid;
+  grid-template-areas: "tit01" "tit02";
+  grid-template-columns: repeat(100%);
+  grid-template-rows: repeat(20px);
+}
+
+.tit01 {
+  grid-area: tit01;
+  justify-content: center;
+  align-items: center;
+}
+
+.tit02 {
+  grid-area: tit02;
+  justify-content: center;
+  align-items: center;
+}
+
 #grid1 {
   display: grid;
   grid-template-areas: "tit    tit     tit" "img1   img2    img3";
   grid-template-columns: repeat(30%);
-  grid-template-rows: 100px 600px;
+  grid-template-rows: auto;
 }
 
 .tit1 {
@@ -293,7 +312,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit    tit" "img4   img5";
   grid-template-columns: repeat(45%);
-  grid-template-rows: 100px 600px;
+  grid-template-rows: auto;
 }
 
 .tit2 {
@@ -319,7 +338,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit    tit     tit" "img6   img7    img8";
   grid-template-columns: repeat(30%);
-  grid-template-rows: 100px 600px;
+  grid-template-rows: auto;
 }
 
 .tit3 {
@@ -350,7 +369,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit  tit" "img9 img10";
   grid-template-columns: repeat(45%);
-  grid-template-rows: 100px 600px;
+  grid-template-rows: auto;
 }
 
 .tit4 {
@@ -375,7 +394,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit    tit" "img11  img12";
   grid-template-columns: repeat(45%);
-  grid-template-rows: 100px 600px;
+  grid-template-rows: auto;
 }
 
 .tit5 {
@@ -400,7 +419,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit    tit     tit" "img13   img14    img15";
   grid-template-columns: repeat(30%);
-  grid-template-rows: 100px 600px;
+  grid-template-rows: auto;
 }
 
 .tit6 {
@@ -633,28 +652,82 @@ h4 {
     justify-self: center;
   }
   #grid1 {
-    display: inline;
-    justify-self: center;
+    display: grid;
+    grid-template-areas: "tit1 tit1" "img1 img2" "img3 img3";
+    grid-template-columns: repeat(50%);
+    grid-template-rows: auto;
   }
-  #grid2 {
-    display: inline;
+  .tit1 {
+    grid-area: tit1;
+    justify-content: center;
+    align-items: center;
+  }
+  .img1 {
+    grid-area: img1;
     justify-self: center;
+    align-items: center;
+  }
+  .img2 {
+    grid-area: img2;
+    justify-self: center;
+    align-items: center;
+  }
+  .img3 {
+    grid-area: img3;
+    justify-self: center;
+    align-items: center;
   }
   #grid3 {
-    display: inline;
-    justify-self: center;
+    display: grid;
+    grid-template-areas: "tit3 tit3" "img6 img7" "img8 img8";
+    grid-template-columns: repeat(50%);
+    grid-template-rows: auto;
   }
-  #grid4 {
-    display: inline;
-    justify-self: center;
+  .tit3 {
+    grid-area: tit3;
+    justify-content: center;
+    align-items: center;
   }
-  #grid5 {
-    display: inline;
+  .img6 {
+    grid-area: img6;
     justify-self: center;
+    align-items: center;
+  }
+  .img7 {
+    grid-area: img7;
+    justify-self: center;
+    align-items: center;
+  }
+  .img8 {
+    grid-area: img8;
+    justify-self: center;
+    align-items: center;
   }
   #grid6 {
-    display: inline;
+    display: grid;
+    grid-template-areas: "tit6 tit6" "img13 img14" "img15 img15";
+    grid-template-columns: repeat(50%);
+    grid-template-rows: auto;
+  }
+  .tit6 {
+    grid-area: tit6;
+    justify-content: center;
+    align-items: center;
+  }
+  .img13 {
+    grid-area: img13;
     justify-self: center;
+    align-items: center;
+  }
+  .img14 {
+    grid-area: img14;
+    justify-self: center;
+    align-items: center;
+  }
+  .img15 {
+    grid-area: img15;
+    justify-self: center;
+    align-items: center;
   }
   .img3 {
     padding-top: 50px;
@@ -711,6 +784,147 @@ img {
   }
   title {
     display: none;
+  }
+  #grid1 {
+    display: grid;
+    grid-template-areas: "tit1" "img1" "img2" "img3";
+    grid-template-columns: repeat(100%);
+    grid-template-rows: auto;
+  }
+  .tit1 {
+    grid-area: tit1;
+    justify-content: center;
+    align-items: center;
+  }
+  .img1 {
+    grid-area: img1;
+    justify-self: center;
+    align-items: center;
+  }
+  .img2 {
+    grid-area: img2;
+    justify-self: center;
+    align-items: center;
+  }
+  .img3 {
+    grid-area: img3;
+    justify-self: center;
+    align-items: center;
+  }
+  #grid2 {
+    display: grid;
+    grid-template-areas: "tit2" "img4" "img5";
+    grid-template-columns: repeat(100%);
+    grid-template-rows: auto;
+  }
+  .tit2 {
+    grid-area: tit2;
+    justify-content: center;
+    align-items: center;
+  }
+  .img4 {
+    grid-area: img4;
+    justify-self: center;
+    align-items: center;
+  }
+  .img5 {
+    grid-area: img5;
+    justify-self: center;
+    align-items: center;
+  }
+  #grid3 {
+    display: grid;
+    grid-template-areas: "tit3" "img6" "img7" "img8";
+    grid-template-columns: repeat(100%);
+    grid-template-rows: auto;
+  }
+  .tit3 {
+    grid-area: tit3;
+    justify-content: center;
+    align-items: center;
+  }
+  .img6 {
+    grid-area: img6;
+    justify-self: center;
+    align-items: center;
+  }
+  .img7 {
+    grid-area: img7;
+    justify-self: center;
+    align-items: center;
+  }
+  .img8 {
+    grid-area: img8;
+    justify-self: center;
+    align-items: center;
+  }
+  #grid4 {
+    display: grid;
+    grid-template-areas: "tit4" "img9" "img10";
+    grid-template-columns: repeat(100%);
+    grid-template-rows: auto;
+  }
+  .tit4 {
+    grid-area: tit4;
+    justify-content: center;
+    align-items: center;
+  }
+  .img9 {
+    grid-area: img9;
+    justify-self: center;
+    align-items: center;
+  }
+  .img10 {
+    grid-area: img10;
+    justify-self: center;
+    align-items: center;
+  }
+  #grid5 {
+    display: grid;
+    grid-template-areas: "tit5" "img11" "img12";
+    grid-template-columns: repeat(100%);
+    grid-template-rows: auto;
+  }
+  .tit5 {
+    grid-area: tit5;
+    justify-content: center;
+    align-items: center;
+  }
+  .img11 {
+    grid-area: img11;
+    justify-self: center;
+    align-items: center;
+  }
+  .img12 {
+    grid-area: img12;
+    justify-self: center;
+    align-items: center;
+  }
+  #grid6 {
+    display: grid;
+    grid-template-areas: "tit6" "img13" "img14" "img15";
+    grid-template-columns: repeat(100%);
+    grid-template-rows: auto;
+  }
+  .tit6 {
+    grid-area: tit6;
+    justify-content: center;
+    align-items: center;
+  }
+  .img13 {
+    grid-area: img13;
+    justify-self: center;
+    align-items: center;
+  }
+  .img14 {
+    grid-area: img14;
+    justify-self: center;
+    align-items: center;
+  }
+  .img15 {
+    grid-area: img15;
+    justify-self: center;
+    align-items: center;
   }
 }
 /*@media screen and (max-width:1100px){
