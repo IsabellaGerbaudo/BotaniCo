@@ -714,35 +714,7 @@ $estilos:(
       width: min-content;
     }
     
-    // #grid1{
-    //   display: inline;
-    //   justify-self: center;
-    // }
-
-    // #grid2{
-    //   display: inline;
-    //   justify-self: center;
-    // }
     
-    // #grid3{
-    //   display: inline;
-    //   justify-self: center;
-    // }
-    
-    // #grid4{
-    //   display: inline;
-    //   justify-self: center;
-    // }
-    
-    // #grid5{
-    //   display: inline;
-    //   justify-self: center;
-    // }
-    // #grid6{
-    //   display: inline;
-    //   justify-self: center;
-    // }
-  
       #grid1{
         display: grid;
         grid-template-areas:
@@ -750,7 +722,7 @@ $estilos:(
       "img1 img2"
       "img3 img3"
       ;
-      grid-template-columns: repeat(45%);
+      grid-template-columns: repeat(200px);
       grid-template-rows: auto;
       }
       .tit1{
@@ -781,7 +753,7 @@ $estilos:(
       "img6 img7"
       "img8 img8"
       ;
-      grid-template-columns: repeat(45%);
+      grid-template-columns: repeat(200px);
       grid-template-rows: auto;
       }
       .tit3{
@@ -812,7 +784,7 @@ $estilos:(
       "img13 img14"
       "img15 img15"
       ;
-      grid-template-columns: repeat(45%);
+      grid-template-columns:min-content;
       grid-template-rows: auto;
       }
       .tit6{
@@ -884,7 +856,7 @@ $estilos:(
 
   @media screen and (max-width:410px){
     *{
-    margin: 10px;
+    margin: 5px;
     display: inline;
     }
     .img-logo{
@@ -910,7 +882,7 @@ $estilos:(
     "img2"
     "img3"
     ;
-    grid-template-columns: repeat(90%);
+    grid-template-columns: repeat(80%);
     grid-template-rows: auto;
     }
     .tit1{
@@ -941,7 +913,7 @@ $estilos:(
     "img4"
     "img5"
     ;
-    grid-template-columns: repeat(90%);
+    grid-template-columns: repeat(80%);
     grid-template-rows: auto;
     }
     .tit2{
@@ -968,7 +940,7 @@ $estilos:(
     "img7"
     "img8"
     ;
-    grid-template-columns: repeat(90%);
+    grid-template-columns: repeat(80%);
     grid-template-rows: auto;
     }
     .tit3{
@@ -999,7 +971,7 @@ $estilos:(
     "img9"
     "img10"
     ;
-    grid-template-columns: repeat(90%);
+    grid-template-columns: repeat(80%);
     grid-template-rows: auto;
     }
     .tit4{
@@ -1025,7 +997,7 @@ $estilos:(
     "img11"
     "img12"
     ;
-    grid-template-columns: repeat(90%);
+    grid-template-columns: repeat(80%);
     grid-template-rows: auto;
     }
     .tit5{
@@ -1052,7 +1024,7 @@ $estilos:(
     "img14"
     "img15"
     ;
-    grid-template-columns: repeat(90%);
+    grid-template-columns: repeat(80%);
     grid-template-rows: auto;
     }
     .tit6{
