@@ -115,6 +115,7 @@ $estilos:(
   }
   .img-1{
     grid-area: img1;
+    justify-self: start;
   }
   .titulo-2{
     grid-area: titulo2;
@@ -131,9 +132,11 @@ $estilos:(
   }
   .img-2{
     grid-area: img2;
+    justify-self: end;
   }
   .img-3{
     grid-area: img3;
+    justify-self: start;
   }
   .titulo-3{
     grid-area: titulo3;
@@ -328,7 +331,7 @@ $estilos:(
     "img1   img2    img3"
     ;
     grid-template-columns: repeat(30%);
-    grid-template-rows: auto;
+    grid-template-rows: 20px 550px;
   }
   .tit1{
     grid-area: tit;
@@ -365,7 +368,7 @@ $estilos:(
     "img4   img5"
     ;
     grid-template-columns: repeat(45%);
-    grid-template-rows: auto;
+    grid-template-rows: 20px 550px;
   }
   .tit2{
     grid-area: tit;
@@ -391,7 +394,7 @@ $estilos:(
     "img6   img7    img8"
     ;
     grid-template-columns: repeat(30%);
-    grid-template-rows: auto;
+    grid-template-rows: 20px 550px;
   }
   .tit3{
     grid-area: tit;
@@ -421,7 +424,7 @@ $estilos:(
     "img9 img10"
     ;
     grid-template-columns: repeat(45%);
-    grid-template-rows: auto;
+    grid-template-rows: 20px 550px;
   }
   .tit4{
     grid-area: tit;
@@ -446,7 +449,7 @@ $estilos:(
     "img11  img12"
     ;
     grid-template-columns: repeat(45%);
-    grid-template-rows: auto;
+    grid-template-rows: 20px 550px;
   }
   .tit5{
     grid-area: tit;
@@ -471,7 +474,7 @@ $estilos:(
     "img13   img14    img15"
     ;
     grid-template-columns: repeat(30%);
-    grid-template-rows: auto;
+    grid-template-rows: 20px 550px;
   }
   .tit6{
     grid-area: tit;
@@ -644,7 +647,6 @@ $estilos:(
     #grid-2{
       display: inline;
       justify-self: center;
-      width: max-content;
     }
     #grid-cui{
       display: inline;
@@ -739,7 +741,7 @@ $estilos:(
       "img3 img3"
       ;
       grid-template-columns: repeat(50%);
-      grid-template-rows: repeat(300px);
+      grid-template-rows: auto;
       }
       .tit1{
         grid-area: tit1;
@@ -770,7 +772,7 @@ $estilos:(
       "img8 img8"
       ;
       grid-template-columns: repeat(50%);
-      grid-template-rows: repeat(300px);
+      grid-template-rows: auto;
       }
       .tit3{
         grid-area: tit3;
@@ -801,7 +803,7 @@ $estilos:(
       "img15 img15"
       ;
       grid-template-columns: repeat(50%);
-      grid-template-rows: repeat(300px);
+      grid-template-rows: auto;
       }
       .tit6{
         grid-area: tit6;
@@ -899,7 +901,7 @@ $estilos:(
     "img3"
     ;
     grid-template-columns: repeat(100%);
-    grid-template-rows: repeat(350px);
+    grid-template-rows: auto;
     }
     .tit1{
       grid-area: tit1;
