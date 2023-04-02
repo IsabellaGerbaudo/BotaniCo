@@ -275,13 +275,13 @@ h4 {
 
 #grid1 {
   display: grid;
-  grid-template-areas: "tit    tit     tit" "img1   img2    img3";
+  grid-template-areas: "tit1   tit1    tit1" "img1   img2    img3";
   grid-template-columns: repeat(30%);
-  grid-template-rows: 20px 550px;
+  grid-template-rows: auto;
 }
 
 .tit1 {
-  grid-area: tit;
+  grid-area: tit1;
   justify-content: center;
   align-items: center;
 }
@@ -313,13 +313,13 @@ h4 {
 
 #grid2 {
   display: grid;
-  grid-template-areas: "tit    tit" "img4   img5";
+  grid-template-areas: "tit2   tit2" "img4   img5";
   grid-template-columns: repeat(45%);
   grid-template-rows: 20px 550px;
 }
 
 .tit2 {
-  grid-area: tit;
+  grid-area: tit2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -339,13 +339,13 @@ h4 {
 
 #grid3 {
   display: grid;
-  grid-template-areas: "tit    tit     tit" "img6   img7    img8";
+  grid-template-areas: "tit3   tit3    tit3" "img6   img7    img8";
   grid-template-columns: repeat(30%);
   grid-template-rows: 20px 550px;
 }
 
 .tit3 {
-  grid-area: tit;
+  grid-area: tit3;
   justify-content: center;
   align-items: center;
 }
@@ -370,13 +370,13 @@ h4 {
 
 #grid4 {
   display: grid;
-  grid-template-areas: "tit  tit" "img9 img10";
+  grid-template-areas: "tit4 tit4" "img9 img10";
   grid-template-columns: repeat(45%);
   grid-template-rows: 20px 550px;
 }
 
 .tit4 {
-  grid-area: tit;
+  grid-area: tit4;
   justify-content: center;
   align-items: center;
 }
@@ -395,13 +395,13 @@ h4 {
 
 #grid5 {
   display: grid;
-  grid-template-areas: "tit    tit" "img11  img12";
+  grid-template-areas: "tit5   tit5" "img11  img12";
   grid-template-columns: repeat(45%);
   grid-template-rows: 20px 550px;
 }
 
 .tit5 {
-  grid-area: tit;
+  grid-area: tit5;
   justify-content: center;
   align-items: center;
 }
@@ -420,13 +420,13 @@ h4 {
 
 #grid6 {
   display: grid;
-  grid-template-areas: "tit    tit     tit" "img13   img14    img15";
+  grid-template-areas: "tit6    tit6     tit6" "img13   img14    img15";
   grid-template-columns: repeat(30%);
   grid-template-rows: 20px 550px;
 }
 
 .tit6 {
-  grid-area: tit;
+  grid-area: tit6;
   justify-content: center;
   align-items: center;
 }
@@ -653,10 +653,19 @@ h4 {
     display: flex;
     justify-self: center;
   }
+  .img-1 {
+    width: min-content;
+  }
+  .img-2 {
+    width: min-content;
+  }
+  .img-3 {
+    width: min-content;
+  }
   #grid1 {
     display: grid;
     grid-template-areas: "tit1 tit1" "img1 img2" "img3 img3";
-    grid-template-columns: repeat(50%);
+    grid-template-columns: repeat(400px);
     grid-template-rows: auto;
   }
   .tit1 {
@@ -682,8 +691,8 @@ h4 {
   #grid3 {
     display: grid;
     grid-template-areas: "tit3 tit3" "img6 img7" "img8 img8";
-    grid-template-columns: repeat(50%);
-    grid-template-rows: auto;
+    grid-template-columns: repeat(400px);
+    grid-template-rows: 20px 500px 500px;
   }
   .tit3 {
     grid-area: tit3;
@@ -708,7 +717,7 @@ h4 {
   #grid6 {
     display: grid;
     grid-template-areas: "tit6 tit6" "img13 img14" "img15 img15";
-    grid-template-columns: repeat(50%);
+    grid-template-columns: repeat(400px);
     grid-template-rows: auto;
   }
   .tit6 {
