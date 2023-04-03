@@ -657,12 +657,6 @@ h4 {
   h3 {
     justify-content: center;
   }
-  input {
-    width: 70%;
-  }
-  textarea {
-    width: 70%;
-  }
   .logo-1 {
     display: flex;
     justify-self: center;
