@@ -659,15 +659,19 @@ h4 {
   }
   .nombre {
     padding-inline-end: 70%;
+    width: 70%;
   }
   .telefono {
     padding-inline-end: 70%;
+    width: 70%;
   }
   .mail {
     padding-inline-end: 70%;
+    width: 70%;
   }
   textarea {
     padding-inline-end: 70%;
+    width: 70%;
   }
   .logo-1 {
     display: flex;
