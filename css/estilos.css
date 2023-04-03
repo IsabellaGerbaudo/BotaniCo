@@ -509,18 +509,21 @@ h4 {
   grid-area: a1;
   display: flex;
   justify-self: center;
+  margin: none;
 }
 
 .a2 {
   grid-area: a2;
   display: flex;
   justify-self: center;
+  margin: none;
 }
 
 .a3 {
   grid-area: a3;
   display: flex;
   justify-self: center;
+  margin: none;
 }
 
 #gridshop2 {
@@ -540,18 +543,21 @@ h4 {
   grid-area: a4;
   display: flex;
   justify-self: center;
+  margin: none;
 }
 
 .a5 {
   grid-area: a5;
   display: flex;
   justify-self: center;
+  margin: none;
 }
 
 .a6 {
   grid-area: a6;
   display: flex;
   justify-self: center;
+  margin: none;
 }
 
 #gridshop3 {
@@ -571,21 +577,27 @@ h4 {
   grid-area: a7;
   display: flex;
   justify-self: center;
+  margin: none;
 }
 
 .a8 {
   grid-area: a8;
   display: flex;
   justify-self: center;
+  margin: none;
 }
 
 .a9 {
   grid-area: a9;
   display: flex;
   justify-self: center;
+  margin: none;
 }
 
 @media screen and (max-width: 992px) {
+  * {
+    margin: 5px;
+  }
   .navbar {
     display: none;
   }
@@ -600,6 +612,7 @@ h4 {
   #grid-2 {
     display: inline;
     justify-self: center;
+    width: min-content;
   }
   .insta {
     display: block;
@@ -654,7 +667,7 @@ h4 {
     padding-inline-end: 80%;
   }
   textarea {
-    padding-inline: 60%;
+    padding-inline-end: 80%;
   }
   .logo-1 {
     display: flex;
