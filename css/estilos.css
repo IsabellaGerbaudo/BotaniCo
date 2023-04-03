@@ -657,25 +657,11 @@ h4 {
   h3 {
     justify-content: center;
   }
-  .nombre {
-    padding-inline-end: 70%;
-    width: 300px;
-    justify-self: center;
-  }
-  .telefono {
-    padding-inline-end: 70%;
-    width: 300px;
-    justify-self: center;
-  }
-  .mail {
-    padding-inline-end: 70%;
-    width: 300px;
-    justify-self: center;
+  input {
+    width: 100%;
   }
   textarea {
-    padding-inline-end: 70%;
-    width: 300px;
-    justify-self: center;
+    width: 100%;
   }
   .logo-1 {
     display: flex;
