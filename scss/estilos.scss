@@ -546,7 +546,7 @@ $estilos:(
     "a1   a2  a3"
     ;
     grid-template-columns: repeat(30%);
-    grid-template-rows: auto 550px;
+    grid-template-rows: auto 600px;
   }
   .titshop{
     grid-area: tit;
@@ -576,8 +576,8 @@ $estilos:(
     "tit  tit tit"
     "a4   a5  a6"
     ;
-    grid-template-columns: repeat(30%);
-    grid-template-rows: auto 200px;
+    grid-template-columns: repeat(200px);
+    grid-template-rows: auto 300px;
   }
   .titshop2{
     grid-area: tit;
@@ -608,7 +608,7 @@ $estilos:(
     "a7   a8  a9"
     ;
     grid-template-columns: repeat(30%);
-    grid-template-rows: auto 550px;
+    grid-template-rows: auto 600px;
   }
   .titshop3{
     grid-area: tit;
@@ -655,6 +655,18 @@ $estilos:(
 
     #grid-cui{
       display: inline;
+    }
+    .im1{
+      height: min-content;
+      width: min-content;
+    }
+    .im2{
+      height: min-content;
+      width: min-content;
+    }
+    .im3{
+      height: min-content;
+      width: min-content;
     }
     #gridshop1{
       display: inline;
@@ -856,9 +868,13 @@ $estilos:(
       padding-top: 50px;
     }
 
-    .img15{
-      padding-top: 50px;
+    .block{
+      display: block;
     }
+
+    // .img15{
+    //   padding-top: 50px;
+    // }
   
     .izq{
       display: inline;

@@ -496,7 +496,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit  tit tit" "a1   a2  a3";
   grid-template-columns: repeat(30%);
-  grid-template-rows: auto 550px;
+  grid-template-rows: auto 600px;
 }
 
 .titshop {
@@ -526,8 +526,8 @@ h4 {
 #gridshop2 {
   display: grid;
   grid-template-areas: "tit  tit tit" "a4   a5  a6";
-  grid-template-columns: repeat(30%);
-  grid-template-rows: auto 200px;
+  grid-template-columns: repeat(200px);
+  grid-template-rows: auto 300px;
 }
 
 .titshop2 {
@@ -558,7 +558,7 @@ h4 {
   display: grid;
   grid-template-areas: "tit  tit tit" "a7   a8  a9";
   grid-template-columns: repeat(30%);
-  grid-template-rows: auto 550px;
+  grid-template-rows: auto 600px;
 }
 
 .titshop3 {
@@ -606,6 +606,18 @@ h4 {
   }
   #grid-cui {
     display: inline;
+  }
+  .im1 {
+    height: min-content;
+    width: min-content;
+  }
+  .im2 {
+    height: min-content;
+    width: min-content;
+  }
+  .im3 {
+    height: min-content;
+    width: min-content;
   }
   #gridshop1 {
     display: inline;
@@ -776,8 +788,8 @@ h4 {
   .img8 {
     padding-top: 50px;
   }
-  .img15 {
-    padding-top: 50px;
+  .block {
+    display: block;
   }
   .izq {
     display: inline;
