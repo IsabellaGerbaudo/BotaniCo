@@ -504,7 +504,7 @@ $estilos:(
     "text2   card2"
     "text3   card3"
     ;
-    grid-template-columns: 50% 40%;
+    grid-template-columns: 40% 40%;
     grid-template-rows: repeat(400px);
   }
   .texto1{
@@ -657,7 +657,7 @@ $estilos:(
       display: inline;
     }
     .im1{
-      height: min-content;
+      height:min-content;
       width: min-content;
     }
     .im2{
@@ -730,41 +730,7 @@ $estilos:(
       width: min-content;
     }
     
-    #pass{
-      display: grid;
-      grid-template-areas:
-      "grid01"
-      "grid1"
-      "grid2"
-      "grid3"
-      "grid4"
-      "grid5"
-      "grid6"
-      ;
-      grid-template-columns: 90%;
-      grid-template-rows: auto repeat(400px);
-    }
-    #grid01{
-      grid-area: grid01;
-    }
-    #grid1{
-      grid-area: grid1;
-    }
-    #grid2{
-      grid-area: grid2;
-    }
-    #grid3{
-      grid-area: grid3;
-    }
-    #grid4{
-      grid-area: grid4;
-    }
-    #grid5{
-      grid-area: grid5;
-    }
-    #grid6{
-      grid-area: grid6;
-    }
+    
     
       #grid1{
         display: grid;
@@ -785,16 +751,19 @@ $estilos:(
         grid-area: img1;
         justify-self: center;
         align-items: center;
+        width: min-content;
       }
       .img2{
         grid-area: img2;
         justify-self: center;
         align-items: center;
+        width: min-content;
       }
       .img3{
         grid-area: img3;
         justify-self: center;
         align-items: center;
+        width: min-content;
       }
 
       #grid3{
@@ -860,13 +829,13 @@ $estilos:(
       }
 
       
-    .img3{
-      padding-top: 50px;
-    }
+    // .img3{
+    //   padding-top: 50px;
+    // }
     
-    .img8{
-      padding-top: 50px;
-    }
+    // .img8{
+    //   padding-top: 50px;
+    // }
 
     .block{
       display: block;
