@@ -453,7 +453,7 @@ h4 {
   display: grid;
   grid-template-areas: "text1   card1" "text2   card2" "text3   card3";
   grid-template-columns: 60% 40%;
-  grid-template-rows: repeat(400px);
+  grid-template-rows: repeat(450px);
 }
 
 .texto1 {
@@ -598,7 +598,57 @@ h4 {
     display: inline;
   }
   #grid-2 {
-    display: inline;
+    display: grid;
+    grid-template-areas: "cont   cont" "nomb   comb" "tel    tel" "mail   mail" "mens   mens" "bot    bot" "imgl   imgl" "mail2  mail2" "tel2   tel2" "dire   dire" "insta  face";
+    grid-template-columns: repeat(45%);
+    grid-template-rows: auto;
+  }
+  .contacto {
+    grid-area: cont;
+    justify-content: center;
+  }
+  .nombre {
+    grid-area: nomb;
+    justify-self: center;
+  }
+  .telefono {
+    grid-area: tel;
+    justify-self: center;
+  }
+  .mail {
+    grid-area: mail;
+    justify-self: center;
+  }
+  .mensaje {
+    grid-area: mens;
+    justify-self: center;
+  }
+  .boton {
+    grid-area: bot;
+    justify-self: center;
+  }
+  .logo-1 {
+    grid-area: imgl;
+    justify-self: center;
+  }
+  .mail-2 {
+    grid-area: mail2;
+    justify-content: center;
+  }
+  .telefono-2 {
+    grid-area: tel2;
+    justify-content: center;
+  }
+  .dire {
+    grid-area: dire;
+    justify-content: center;
+  }
+  .insta {
+    grid-area: insta;
+    justify-self: center;
+  }
+  .face {
+    grid-area: face;
     justify-self: center;
   }
   #grid-cui {
