@@ -495,7 +495,7 @@ h4 {
 #gridshop1 {
   display: grid;
   grid-template-areas: "tit  tit tit" "a1   a2  a3";
-  grid-template-columns: repeat(30%);
+  grid-template-columns: repeat(350px);
   grid-template-rows: auto 600px;
 }
 
@@ -529,7 +529,7 @@ h4 {
 #gridshop2 {
   display: grid;
   grid-template-areas: "tit  tit tit" "a4   a5  a6";
-  grid-template-columns: repeat(30%);
+  grid-template-columns: repeat(350px);
   grid-template-rows: auto 600px;
 }
 
@@ -563,7 +563,7 @@ h4 {
 #gridshop3 {
   display: grid;
   grid-template-areas: "tit  tit tit" "a7   a8  a9";
-  grid-template-columns: repeat(30%);
+  grid-template-columns: repeat(350px);
   grid-template-rows: auto 600px;
 }
 
@@ -667,7 +667,8 @@ h4 {
     padding-inline-end: 80%;
   }
   textarea {
-    padding-inline-end: 80%;
+    padding-inline-end: 60%;
+    width: 70%;
   }
   .logo-1 {
     display: flex;

@@ -545,7 +545,7 @@ $estilos:(
     "tit  tit tit"
     "a1   a2  a3"
     ;
-    grid-template-columns: repeat(30%);
+    grid-template-columns: repeat(350px);
     grid-template-rows: auto 600px;
     
   }
@@ -580,7 +580,7 @@ $estilos:(
     "tit  tit tit"
     "a4   a5  a6"
     ;
-    grid-template-columns: repeat(30%);
+    grid-template-columns: repeat(350px);
     grid-template-rows: auto 600px;
   }
   .titshop2{
@@ -614,7 +614,7 @@ $estilos:(
     "tit  tit tit"
     "a7   a8  a9"
     ;
-    grid-template-columns: repeat(30%);
+    grid-template-columns: repeat(350px);
     grid-template-rows: auto 600px;
   }
   .titshop3{
@@ -720,7 +720,8 @@ $estilos:(
       padding-inline-end: 80%;
     }
     textarea{
-      padding-inline-end: 80%;
+      padding-inline-end: 60%;
+      width: 70%;
     }
   
     .logo-1{
