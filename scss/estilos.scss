@@ -576,8 +576,8 @@ $estilos:(
     "tit  tit tit"
     "a4   a5  a6"
     ;
-    grid-template-columns: repeat(200px);
-    grid-template-rows: auto 300px;
+    grid-template-columns: repeat(30%);
+    grid-template-rows: auto 600px;
   }
   .titshop2{
     grid-area: tit;
