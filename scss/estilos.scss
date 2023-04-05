@@ -816,19 +816,19 @@ $estilos:(
         grid-area: img1;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 95%;
       }
       .img2{
         grid-area: img2;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 95%;
       }
       .img3{
         grid-area: img3;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 50%;
       }
 
       #grid3{
@@ -850,19 +850,19 @@ $estilos:(
         grid-area: img6;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 95%;
       }
       .img7{
         grid-area: img7;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 95%;
       }
       .img8{
         grid-area: img8;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 50%;
       }
 
       #grid6{
@@ -884,33 +884,33 @@ $estilos:(
         grid-area: img13;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 95%;
       }
       .img14{
         grid-area: img14;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 95%;
       }
       .img15{
         grid-area: img15;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 50%;
       }
 
-      // #gridshop1{
-      //   display: inline;
-      // }
-      // .maceta-1{
-      //   width: 95%;
-      // }
-      // .maceta-2{
-      //   width: 95%;
-      // }
-      // .maceta-3{
-      //   width: 95%;
-      // }
+      #gridshop1{
+        display: inline;
+      }
+      .maceta-1{
+        width: 95%;
+      }
+      .maceta-2{
+        width: 95%;
+      }
+      .maceta-3{
+        width: 95%;
+      }
       
   
       #gridshop2{
@@ -1254,6 +1254,29 @@ $estilos:(
     }
     .decoracion-3{
       width: 95%;
+    }
+
+    #grid-cui{
+      display: inline;
+    }
+    .im1{
+      width: 95%;
+      height: min-content;
+    }
+    .im2{
+      width: 95%;
+      height: min-content;
+    }
+    .im3{
+      width: 95%;
+      height: min-content;
+    }
+    
+    .texto2{
+      padding-top: 30px;
+    }
+    .texto3{
+      padding-top: 30px;
     }
 
     .tit-cui{
