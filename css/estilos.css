@@ -606,24 +606,34 @@ h4 {
     display: flex;
     justify-content: end;
   }
+  .img-1 {
+    width: 450px;
+  }
+  .img-2 {
+    width: 450px;
+  }
+  .img-3 {
+    width: 450px;
+  }
   #grid-2 {
+    display: inline;
     justify-self: center;
-    width: 45%;
+    width: 90%;
   }
   .nombre {
-    width: 45%;
+    width: 90%;
   }
   .telefono {
-    width: 45%;
+    width: 90%;
   }
   .mail {
-    width: 45%;
+    width: 90%;
   }
   .boton {
-    width: 45%;
+    width: 90%;
   }
   .mensaje {
-    width: 45%;
+    width: 90%;
   }
   .insta {
     display: block;
@@ -684,27 +694,6 @@ h4 {
     display: flex;
     justify-self: center;
   }
-  .img-1 {
-    width: 45%;
-    height: auto;
-  }
-  .img-2 {
-    width: 45%;
-    height: auto;
-  }
-  .img-3 {
-    width: 45%;
-    height: auto;
-  }
-  .texto-1 {
-    width: 45%;
-  }
-  .texto-2 {
-    width: 45%;
-  }
-  .texto-3 {
-    width: 45%;
-  }
   #grid1 {
     display: grid;
     grid-template-areas: "tit1 tit1" "img1 img2" "img3 img3";
@@ -720,19 +709,19 @@ h4 {
     grid-area: img1;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 45%;
   }
   .img2 {
     grid-area: img2;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 45%;
   }
   .img3 {
     grid-area: img3;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 45%;
   }
   #grid3 {
     display: grid;
@@ -749,16 +738,19 @@ h4 {
     grid-area: img6;
     justify-self: center;
     align-items: center;
+    width: 45%;
   }
   .img7 {
     grid-area: img7;
     justify-self: center;
     align-items: center;
+    width: 45%;
   }
   .img8 {
     grid-area: img8;
     justify-self: center;
     align-items: center;
+    width: 45%;
   }
   #grid6 {
     display: grid;
@@ -775,19 +767,19 @@ h4 {
     grid-area: img13;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 45%;
   }
   .img14 {
     grid-area: img14;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 45%;
   }
   .img15 {
     grid-area: img15;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 45%;
   }
   .block {
     display: block;
@@ -827,26 +819,6 @@ img {
   }
   #grid {
     display: inline;
-    width: 90%;
-  }
-  #grid-2 {
-    display: inline;
-    width: 90%;
-  }
-  .nombre {
-    width: 90%;
-  }
-  .telefono {
-    width: 90%;
-  }
-  .mail {
-    width: 90%;
-  }
-  .boton {
-    width: 90%;
-  }
-  .mensaje {
-    width: 90%;
   }
   .img-logo {
     display: none;
@@ -877,19 +849,19 @@ img {
     grid-area: img1;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   .img2 {
     grid-area: img2;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   .img3 {
     grid-area: img3;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   #grid2 {
     display: grid;
@@ -906,13 +878,13 @@ img {
     grid-area: img4;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   .img5 {
     grid-area: img5;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   #grid3 {
     display: grid;
@@ -929,19 +901,19 @@ img {
     grid-area: img6;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   .img7 {
     grid-area: img7;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   .img8 {
     grid-area: img8;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   #grid4 {
     display: grid;
@@ -958,13 +930,13 @@ img {
     grid-area: img9;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   .img10 {
     grid-area: img10;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   #grid5 {
     display: grid;
@@ -981,13 +953,13 @@ img {
     grid-area: img11;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   .img12 {
     grid-area: img12;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   #grid6 {
     display: grid;
@@ -1004,19 +976,19 @@ img {
     grid-area: img13;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   .img14 {
     grid-area: img14;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
   .img15 {
     grid-area: img15;
     justify-self: center;
     align-items: center;
-    width: min-content;
+    width: 90%;
   }
 }
 /*@media screen and (max-width:1100px){
