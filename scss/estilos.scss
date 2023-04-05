@@ -659,25 +659,25 @@ $estilos:(
     //   display: inline;
     //   width: 80%;
     // }
+    
     #grid-2{
-      display: inline;
       justify-self: center;
-      width: 300px;
+      width: 45%;
     }
     .nombre{
-      width: 300px;
+      width: 45%;
     }
     .telefono{
-      width: 300px;
+      width: 45%;
     }
     .mail{
-      width: 300px;
+      width: 45%;
     }
     .boton{
-      width: 300px;
+      width: 45%;
     }
     .mensaje{
-      width: 300px;
+      width: 45%;
     }
     .insta{
       display: block;
@@ -750,15 +750,26 @@ $estilos:(
       justify-self: center;
     }
     .img-1{
-      width: 80%;
+      width: 45%;
+      height: auto;
     }
     .img-2{
-      width: 80%;
+      width: 45%;
+      height: auto;
     }
     .img-3{
-      width: 80%;
+      width: 45%;
+      height: auto;
     }
-    
+    .texto-1{
+      width: 45%;
+    }
+    .texto-2{
+      width: 45%;
+    }
+    .texto-3{
+      width: 45%;
+    }
     
     
       #grid1{
@@ -917,9 +928,30 @@ $estilos:(
     }
     #grid{
       display: inline;
-      width: 80%;
+      width: 90%;
       }
 
+      #grid-2{
+        display: inline;
+        width: 90%;
+        }
+
+        .nombre{
+          width: 90%;
+        }
+        .telefono{
+          width: 90%;
+        }
+        .mail{
+          width: 90%;
+        }
+        .boton{
+          width: 90%;
+        }
+        .mensaje{
+          width: 90%;
+        }
+    
     .img-logo{
       display: none;
     }
