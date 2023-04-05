@@ -646,19 +646,19 @@ h4 {
     grid-area: img-1;
     justify-self: center;
     align-items: center;
-    width: 450px;
+    width: 90%;
   }
   .img-2 {
     grid-area: img-2;
     justify-self: center;
     align-items: center;
-    width: 450px;
+    width: 90%;
   }
   .img-3 {
     grid-area: img-3;
     justify-self: center;
     align-items: center;
-    width: 450px;
+    width: 90%;
   }
   #grid-2 {
     display: inline;
@@ -862,8 +862,14 @@ h4 {
     padding-left: 0px;
     justify-content: start;
   }
-  .im {
-    width: 950px;
+  .im1 {
+    width: 90%;
+  }
+  .im2 {
+    width: 90%;
+  }
+  .im3 {
+    width: 90%;
   }
 }
 img {
@@ -904,8 +910,14 @@ img {
     padding-left: 0px;
     justify-content: start;
   }
-  .im {
-    width: 380px;
+  .im1 {
+    width: 90%;
+  }
+  .im2 {
+    width: 90%;
+  }
+  .im3 {
+    width: 90%;
   }
   title {
     display: none;
@@ -1100,7 +1112,7 @@ img {
     width: 95%;
   }
   .decoracion-3 {
-    width: 995%;
+    width: 95%;
   }
   .tit-cui {
     justify-self: center;

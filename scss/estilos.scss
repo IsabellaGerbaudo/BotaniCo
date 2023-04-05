@@ -656,10 +656,7 @@ $estilos:(
         display: flex;
         justify-content: end;
     }
-    // #grid{
-    //   display: inline;
-    //   width: 80%;
-    // }
+    
     #grid{
       display: grid;
       grid-template-areas:
@@ -710,19 +707,19 @@ $estilos:(
       grid-area: img-1;
       justify-self: center;
         align-items: center;
-        width: 450px;
+        width: 90%;
     }
     .img-2{
       grid-area: img-2;
       justify-self: center;
         align-items: center;
-        width: 450px;
+        width: 90%;
     }
     .img-3{
       grid-area: img-3;
       justify-self: center;
       align-items: center;
-      width: 450px;
+      width: 90%;
     }
     
 
@@ -799,14 +796,6 @@ $estilos:(
     h3{
       justify-content: center;
     }
-
-    
-    // input{
-    //   width: 70%;
-    // }
-    // textarea{
-    //   width: 70%;
-    // }
   
     .logo-1{
       display: flex;
@@ -973,17 +962,21 @@ $estilos:(
       display: block;
     }
 
-    // .img15{
-    //   padding-top: 50px;
-    // }
   
     .izq{
       display: inline;
       padding-left: 0px;
       justify-content: start;
     }
-    .im{
-      width: 950px;
+    
+    .im1{
+      width: 90%;
+    }
+    .im2{
+      width: 90%;
+    }
+    .im3{
+      width: 90%;
     }
   }
   
@@ -1033,8 +1026,15 @@ $estilos:(
       padding-left: 0px;
       justify-content: start;
     }
-    .im{
-      width: 380px;
+  
+    .im1{
+      width: 90%;
+    }
+    .im2{
+      width: 90%;
+    }
+    .im3{
+      width: 90%;
     }
     title{
       display: none;
@@ -1268,7 +1268,7 @@ $estilos:(
       width: 95%;
     }
     .decoracion-3{
-      width: 995%;
+      width: 95%;
     }
 
     .tit-cui{
