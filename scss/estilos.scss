@@ -221,7 +221,6 @@ $estilos:(
     display: flex;
     justify-self: center;
     align-self: center;
-
   }
   .mail-2{
     grid-area: datos;
@@ -1037,6 +1036,7 @@ $estilos:(
     .im{
       width: 950px;
     }
+  }
   
   
   img{
@@ -1401,3 +1401,5 @@ $estilos:(
       padding-top: 10px;
       padding-bottom: 10px;
     }
+  }
+
