@@ -606,14 +606,25 @@ h4 {
     display: flex;
     justify-content: end;
   }
-  #grid {
-    display: inline;
-    width: 80%;
-  }
   #grid-2 {
     display: inline;
     justify-self: center;
-    width: 80%;
+    width: 300px;
+  }
+  .nombre {
+    width: 300px;
+  }
+  .telefono {
+    width: 300px;
+  }
+  .mail {
+    width: 300px;
+  }
+  .boton {
+    width: 300px;
+  }
+  .mensaje {
+    width: 300px;
   }
   .insta {
     display: block;
@@ -802,6 +813,10 @@ img {
   * {
     margin: 5px;
     display: inline;
+  }
+  #grid {
+    display: inline;
+    width: 80%;
   }
   .img-logo {
     display: none;
