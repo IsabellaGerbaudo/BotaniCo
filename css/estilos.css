@@ -646,19 +646,19 @@ h4 {
     grid-area: img-1;
     justify-self: center;
     align-items: center;
-    width: 90%;
+    width: 450px;
   }
   .img-2 {
     grid-area: img-2;
     justify-self: center;
     align-items: center;
-    width: 90%;
+    width: 450px;
   }
   .img-3 {
     grid-area: img-3;
     justify-self: center;
     align-items: center;
-    width: 90%;
+    width: 450px;
   }
   #grid-2 {
     display: inline;
@@ -819,82 +819,40 @@ h4 {
     width: 400px;
   }
   #gridshop1 {
-    display: grid;
-    grid-template-areas: "titshop  titshop" "mac1     mac2" "mac3     mac3";
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-  }
-  .titshop {
-    grid-area: titshop;
-    justify-content: center;
-    align-items: center;
+    display: inline;
   }
   .maceta-1 {
-    grid-area: mac1;
-    justify-self: center;
-    width: 45%;
+    width: 95%;
   }
   .maceta-2 {
-    grid-area: mac2;
-    justify-self: center;
-    width: 45%;
+    width: 95%;
   }
   .maceta-3 {
-    grid-area: mac3;
-    justify-self: center;
-    width: 45%;
+    width: 95%;
   }
   #gridshop2 {
-    display: grid;
-    grid-template-areas: "titshop2  titshop2" "mueb1     mueb2" "mueb3     mueb3";
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-  }
-  .titshop2 {
-    grid-area: titshop2;
-    justify-content: center;
-    align-items: center;
+    display: inline;
   }
   .mueble-1 {
-    grid-area: mueb1;
-    justify-self: center;
-    width: 45%;
+    width: 95%;
   }
   .mueble-2 {
-    grid-area: mueb2;
-    justify-self: center;
-    width: 45%;
+    width: 95%;
   }
   .mueble-3 {
-    grid-area: mueb3;
-    justify-self: center;
-    width: 45%;
+    width: 95%;
   }
   #gridshop3 {
-    display: grid;
-    grid-template-areas: "titshop3  titshop3" "dec1       dec2" "dec3       dec3";
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-  }
-  .titshop3 {
-    grid-area: titshop3;
-    justify-content: center;
-    align-items: center;
+    display: inline;
   }
   .decoracion-1 {
-    grid-area: dec1;
-    justify-self: center;
-    width: 45%;
+    width: 95%;
   }
   .decoracion-2 {
-    grid-area: dec2;
-    justify-self: center;
-    width: 45%;
+    width: 95%;
   }
   .decoracion-3 {
-    grid-area: dec3;
-    justify-self: center;
-    width: 45%;
+    width: 95%;
   }
   .block {
     display: block;
@@ -927,7 +885,7 @@ img {
     height: 100px;
   }
 }
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 415px) {
   * {
     margin: 5px;
     display: inline;
@@ -1112,37 +1070,37 @@ img {
     display: inline;
   }
   .maceta-1 {
-    width: 90%;
+    width: 95%;
   }
   .maceta-2 {
-    width: 90%;
+    width: 95%;
   }
   .maceta-3 {
-    width: 90%;
+    width: 95%;
   }
   #gridshop2 {
     display: inline;
   }
   .mueble-1 {
-    width: 90%;
+    width: 95%;
   }
   .mueble-2 {
-    width: 90%;
+    width: 95%;
   }
   .mueble-3 {
-    width: 90%;
+    width: 95%;
   }
   #gridshop3 {
     display: inline;
   }
   .decoracion-1 {
-    width: 90%;
+    width: 95%;
   }
   .decoracion-2 {
-    width: 90%;
+    width: 95%;
   }
   .decoracion-3 {
-    width: 90%;
+    width: 995%;
   }
   .tit-cui {
     justify-self: center;
