@@ -608,6 +608,7 @@ h4 {
   }
   #grid {
     display: inline;
+    width: min-content;
   }
   #grid-2 {
     display: inline;
@@ -619,6 +620,7 @@ h4 {
   }
   #grid-cui {
     display: inline;
+    width: min-content;
   }
   .im1 {
     height: min-content;
@@ -634,12 +636,15 @@ h4 {
   }
   #gridshop1 {
     display: inline;
+    width: min-content;
   }
   #gridshop2 {
     display: inline;
+    width: min-content;
   }
   #gridshop3 {
     display: inline;
+    width: min-content;
   }
   .texto2 {
     padding-top: 30px;
@@ -748,16 +753,19 @@ h4 {
     grid-area: img13;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .img14 {
     grid-area: img14;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .img15 {
     grid-area: img15;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .block {
     display: block;
@@ -824,16 +832,19 @@ img {
     grid-area: img1;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .img2 {
     grid-area: img2;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .img3 {
     grid-area: img3;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   #grid2 {
     display: grid;
@@ -850,11 +861,13 @@ img {
     grid-area: img4;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .img5 {
     grid-area: img5;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   #grid3 {
     display: grid;
@@ -871,16 +884,19 @@ img {
     grid-area: img6;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .img7 {
     grid-area: img7;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .img8 {
     grid-area: img8;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   #grid4 {
     display: grid;
@@ -897,11 +913,13 @@ img {
     grid-area: img9;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .img10 {
     grid-area: img10;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   #grid5 {
     display: grid;
@@ -918,11 +936,13 @@ img {
     grid-area: img11;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .img12 {
     grid-area: img12;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   #grid6 {
     display: grid;
@@ -939,16 +959,19 @@ img {
     grid-area: img13;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .img14 {
     grid-area: img14;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
   .img15 {
     grid-area: img15;
     justify-self: center;
     align-items: center;
+    width: min-content;
   }
 }
 /*@media screen and (max-width:1100px){
