@@ -221,6 +221,7 @@ $estilos:(
     display: flex;
     justify-self: center;
     align-self: center;
+
   }
   .mail-2{
     grid-area: datos;
@@ -256,6 +257,7 @@ $estilos:(
     align-self: center; 
     padding-right: 150px;
   }
+  
   
   p{
     font-family: DM-sans-Regular;
@@ -659,15 +661,72 @@ $estilos:(
     //   display: inline;
     //   width: 80%;
     // }
+    #grid{
+      display: grid;
+      grid-template-areas:
+      "titulo-1"
+      "img-1"
+      "texto-1"
+      "titulo-2"
+      "img-2"
+      "texto-2"
+      "titulo-3"
+      "img-3"
+      "texto-3"
+      ;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+    .titulo-1{
+      grid-area: titulo-1;
+      justify-content: center;
+      align-items: center;
+    }
+    .titulo-2{
+      grid-area: titulo-2;
+      justify-content: center;
+      align-items: center;
+    }
+    .titulo-3{
+      grid-area: titulo-3;
+      justify-content: center;
+      align-items: center;
+    }
+    .texto-1{
+      grid-area: texto-1;
+      justify-content: center;
+      align-items: center;
+    }
+    .texto-2{
+      grid-area: texto-2;
+      justify-content: center;
+      align-items: center;
+    }
+    .texto-3{
+      grid-area: texto-3;
+      justify-content: center;
+      align-items: center;
+    }
     .img-1{
-      width: 450px;
+      grid-area: img-1;
+      justify-self: center;
+        align-items: center;
+        width: 90%;
     }
     .img-2{
-      width: 450px;
+      grid-area: img-2;
+      justify-self: center;
+        align-items: center;
+        width: 90%;
     }
     .img-3{
-      width: 450px;
+      grid-area: img-3;
+      justify-self: center;
+      align-items: center;
+      width: 90%;
     }
+    
+
     #grid-2{
       display: inline;
       justify-self: center;
@@ -691,6 +750,10 @@ $estilos:(
     .insta{
       display: block;
     }
+    .logo-1{
+      justify-self: center;
+      padding-top: 15px;
+    }
 
     #grid-cui{
       display: inline;
@@ -708,18 +771,18 @@ $estilos:(
       height: min-content;
       width: 80%;
     }
-    #gridshop1{
-      display: inline;
-      width: 80%;
-    }
-    #gridshop2{
-      display: inline;
-      width: 80%;
-    }
-    #gridshop3{
-      display: inline;
-      width: 80%;
-    }
+    // #gridshop1{
+    //   display: inline;
+    //   width: 80%;
+    // }
+    // #gridshop2{
+    //   display: inline;
+    //   width: 80%;
+    // }
+    // #gridshop3{
+    //   display: inline;
+    //   width: 80%;
+    // }
     .texto2{
       padding-top: 30px;
     }
@@ -781,19 +844,19 @@ $estilos:(
         grid-area: img1;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 400px;
       }
       .img2{
         grid-area: img2;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 400px;
       }
       .img3{
         grid-area: img3;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 400px;
       }
 
       #grid3{
@@ -815,19 +878,19 @@ $estilos:(
         grid-area: img6;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 400px;
       }
       .img7{
         grid-area: img7;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 400px;
       }
       .img8{
         grid-area: img8;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 400px;
       }
 
       #grid6{
@@ -849,29 +912,114 @@ $estilos:(
         grid-area: img13;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 400px;
       }
       .img14{
         grid-area: img14;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 400px;
       }
       .img15{
         grid-area: img15;
         justify-self: center;
         align-items: center;
-        width: 45%;
+        width: 400px;
       }
 
-      
-    // .img3{
-    //   padding-top: 50px;
-    // }
-    
-    // .img8{
-    //   padding-top: 50px;
-    // }
+      #gridshop1{
+        display: grid;
+        grid-template-areas:
+        "titshop  titshop"
+        "mac1     mac2"
+        "mac3     mac3"
+        ;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+      }
+    .titshop{
+      grid-area: titshop;
+      justify-content: center;
+      align-items: center;
+    }
+    .maceta-1{
+      grid-area: mac1;
+      justify-self: center;
+      width: 45%;
+    }
+    .maceta-2{
+      grid-area: mac2;
+      justify-self: center;
+      width: 45%;
+    }
+    .maceta-3{
+      grid-area: mac3;
+      justify-self: center;
+      width: 45%;
+    }
+
+    #gridshop2{
+      display: grid;
+      grid-template-areas:
+      "titshop2  titshop2"
+      "mueb1     mueb2"
+      "mueb3     mueb3"
+      ;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+  .titshop2{
+    grid-area: titshop2;
+    justify-content: center;
+    align-items: center;
+  }
+  .mueble-1{
+    grid-area: mueb1;
+    justify-self: center;
+    width: 45%;
+  }
+  .mueble-2{
+    grid-area: mueb2;
+    justify-self: center;
+    width: 45%;
+  }
+  .mueble-3{
+    grid-area: mueb3;
+    justify-self: center;
+    width: 45%;
+  }
+
+  #gridshop3{
+    display: grid;
+    grid-template-areas:
+    "titshop3  titshop3"
+    "dec1       dec2"
+    "dec3       dec3"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+.titshop3{
+  grid-area: titshop3;
+  justify-content: center;
+  align-items: center;
+}
+.decoracion-1{
+  grid-area: dec1;
+  justify-self: center;
+  width: 45%;
+}
+.decoracion-2{
+  grid-area: dec2;
+  justify-self: center;
+  width: 45%;
+}
+.decoracion-3{
+  grid-area: dec3;
+  justify-self: center;
+  width: 45%;
+}
+
 
     .block{
       display: block;
@@ -920,9 +1068,13 @@ $estilos:(
     display: inline;
     }
 
-    #grid{
-      display: inline;
-      }
+    
+    .texto-1{
+      padding: none;
+    }
+    .texto-3{
+      padding: none;
+    }
 
     .img-logo{
       display: none;
@@ -1127,32 +1279,125 @@ $estilos:(
       align-items: center;
       width: 90%;
     }
-    }
-  
-  /*@media screen and (max-width:1100px){
-    h1{
-        font-size: 25px;
-    }
-    h2{
-        font-size: 20px;
-    }
     
-    #grid{
-        display: grid;
-  
-        grid-template-areas: 
-        "titulo1"
-        "texto1"
-        "img1"
-        "titulo2"
-        "texto2"
-        "img2"
-        "titulo3"
-        "texto3"
-        "img3"
-        ;
-        grid-template-columns: 100%;
-        grid-template-rows: 100px;
+    #gridshop1{
+      display: grid;
+      grid-template-areas:
+    "titshop"
+    "mac1"
+    "mac2"
+    "mac3"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    }
+    .titshop{
+      grid-area: titshop;
+      justify-content: center;
+      align-items: center;
+    }
+    .maceta-1{
+      grid-area: mac1;
+      justify-self: center;
+      align-items: center;
+      width: 90%;
+    }
+    .maceta-2{
+      grid-area: mac2;
+      justify-self: center;
+      align-items: center;
+      width: 90%;
+    }
+    .maceta-3{
+      grid-area: mac3;
+      justify-self: center;
+      align-items: center;
+      width: 90%;
+    }
+
+    #gridshop2{
+      display: grid;
+      grid-template-areas:
+    "titshop2"
+    "mueb1"
+    "mueb2"
+    "mueb3"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    }
+    .titshop2{
+      grid-area: titshop2;
+      justify-content: center;
+      align-items: center;
+    }
+    .mueble-1{
+      grid-area: mueb1;
+      justify-self: center;
+      align-items: center;
+      width: 90%;
+    }
+    .mueble-2{
+      grid-area: mueb2;
+      justify-self: center;
+      align-items: center;
+      width: 90%;
+    }
+    .mueble-3{
+      grid-area: mueb3;
+      justify-self: center;
+      align-items: center;
+      width: 90%;
+    }
+
+    #gridshop3{
+      display: grid;
+      grid-template-areas:
+    "titshop3"
+    "dec1"
+    "dec2"
+    "dec3"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    }
+    .titshop3{
+      grid-area: titshop3;
+      justify-content: center;
+      align-items: center;
+    }
+    .decoracion-1{
+      grid-area: dec1;
+      justify-self: center;
+      align-items: center;
+      width: 90%;
+    }
+    .decoracion-2{
+      grid-area: dec2;
+      justify-self: center;
+      align-items: center;
+      width: 90%;
+    }
+    .decoracion-3{
+      grid-area: dec3;
+      justify-self: center;
+      align-items: center;
+      width: 90%;
+    }
+
+    .tit-cui{
+      justify-self: center;
     }
   
-  }*/
+    .texto1{
+      width: 90%;
+    }
+    .texto2{
+      width: 90%;
+      padding-top: 10px;
+    }
+    .texto3{
+      width: 90%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
